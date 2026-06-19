@@ -1,26 +1,20 @@
-def metros_millas(metros):
-    millas = metros * 0.000621371
-    return millas
+def metros_millas(metros): 
+    return metros * 0.000621371
 
-def millas_metros(millas):
-    metros = millas * 1609.34
-    return metros
+def millas_metros(millas): 
+    return millas * 1609.34
 
-def millas_pies(millas):
-    pies = millas * 5280
-    return pies
+def millas_pies(millas): 
+    return millas * 5280
 
-def pies_millas(pies):
-    millas = pies / 5280
-    return millas
+def pies_millas(pies): 
+    return pies * 0.000189394
 
-def metros_pies(metros):
-    pies = metros * 0.3048
-    return pies
+def metros_pies(metros): 
+    return metros * 3.28084
 
-def pies_metros(pies):
-    metros = pies * 3.28084
-    return metros
+def pies_metros(pies): 
+    return pies * 0.3048
 
 
 print("=== Conversor de Unidades ====")
